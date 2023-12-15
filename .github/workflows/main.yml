@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: ls -la; pwd; echo "hello"
+      - run: ls -la; pwd; echo "hello"; ./doit.py
